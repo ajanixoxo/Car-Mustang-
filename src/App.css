@@ -2,7 +2,7 @@
 
 
 body{
-    background:url("images/bg.png") no-repeat;
+    background:url("/images/bg.png") no-repeat;
     background-position:center;
     background-size:cover;
     width:100vw;
