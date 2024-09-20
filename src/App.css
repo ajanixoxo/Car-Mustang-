@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    background:url("images/bg.png") no-repeat;
+    background-position:center;
+    background-size:cover;
+    width:100vw;
+    height:140vh;
+    font-family:"Inter";
+    color:white;
+}
+.active{
+    position:relative;
+}
+.active:before{
+   content: " ";
+   position:absolute;
+   width:60px;
+   height:5px;
+   background-color:#0bcf;
+   bottom:0;
+   border-radius:10px;
+   text-align:center;
+}
