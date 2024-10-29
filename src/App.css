@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+
+@media(min-width:768px){
+    body{
+        height:14ovh
+    }
+}
+@meida(max-width:768px){
+    body{
+        
+    }
+}
 body{
     background:url("/images/bg.png") no-repeat;
     background-position:center;
     background-size:cover;
     width:100vw;
-    height:140vh;
+    height:100vh;
     font-family:"Inter";
     color:white;
 }
